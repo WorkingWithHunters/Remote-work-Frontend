@@ -1,0 +1,331 @@
+body
+{
+    margin: 20px;
+    font-family: [Epilogue](https://fonts.google.com/specimen/Epilogue);
+    background-color:hsl(0, 0%, 98%);
+    
+    
+    /* font-weight:500px; */
+}
+
+nav a
+{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+nav a:hover
+{
+    font-weight: 500;
+    transition: 1.5ms;
+}
+
+#login a
+{
+    padding-left: 500px;
+    margin-right: 50px;
+}
+
+#register 
+{
+    border-width:1.5px; 
+    border-style:solid; 
+    border-color:black; 
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 2px;
+    /* padding: 1em; */
+}
+
+#register:hover 
+{
+    border-width:2px; 
+    border-style:solid; 
+    border-color:black; 
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 500;
+    transition: 1.5ms;
+    /* padding: 1em; */
+}
+
+p,a
+{
+    color:hsl(0, 0%, 41%);
+}
+
+h1 
+{
+    color:  hsl(0, 0%, 8%);
+    font-size: 70px;
+    font-weight: 800;
+    padding-left: 120px;
+    margin-top: 50px;
+   
+}
+
+p 
+{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 120px;
+    margin-top: 30px;
+    
+}
+
+
+
+#learn-more
+{
+    color: whitesmoke;
+    background-color:hsl(0, 0%, 8%);
+    border-radius: 15px;
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+#learn-more:hover
+{
+    color:hsl(0, 0%, 8%);
+    background-color:hsl(0, 0%, 98%);
+    border-radius: 15px;
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+
+#brand-logo
+{
+    margin-left: 120px;
+    margin-top: 55px;
+    padding-right: 100px;
+
+}
+img
+{
+    padding-right: 30px;
+}
+
+.container-fluid a img 
+{
+    width: 5%;
+    
+}
+
+.container-fluid a
+{
+    text-decoration: none;
+}
+
+#footer
+{
+    margin-left: 120px; 
+    margin-top: 55px;
+}
+.dropdown-menu,.nav-item
+{
+    padding-left: 0px;
+    float: left;
+}
+
+#hero-photo
+{
+    padding: 40px;
+    float: right;
+    width:500px;
+    height: 500px;
+}
+/* .dropdown-menu
+{
+    padding: 50px;
+} */
+ul .dropdown-menu li .nav-item img
+{
+    margin-left: 5px;
+}
+
+
+@media (max-width:660px) 
+{
+    body
+    {
+        margin: 30px;
+        font-family: [Epilogue](https://fonts.google.com/specimen/Epilogue);
+        background-color:hsl(0, 0%, 98%);
+        
+        /* font-weight:500px; */
+    }
+    nav
+    {
+        background-color:hsl(0, 0%, 98%);
+    }
+    nav a
+    {
+        margin-top: 0px;
+        padding-top: 0px;
+        background-color:hsl(0, 0%, 98%);
+    }
+    
+    nav a:hover
+    {
+        font-weight: 500;
+        transition: 1.5ms;
+    }
+    
+    #login a
+    {
+        padding-left: 120px;
+    }
+    
+    #register 
+    {
+        border-width:1.5px; 
+        border-style:solid; 
+        border-color:black; 
+        border-radius: 20px;
+        padding-left: 60px;
+        padding-right: 10px;
+        /* margin-left:70px; */
+        /* margin-right: 100px; */
+        /* padding: 1em; */
+    }
+    #register a
+    {
+        margin-left: 50px ;
+    }
+    
+    #register:hover 
+    {
+        border-width:2px; 
+        border-style:solid; 
+        border-color:black; 
+        border-radius: 20px;
+        padding-left: 8px;
+        padding-right: 8px;
+        font-weight: 500;
+        transition: 1.5ms;
+        /* padding: 1em; */
+    }
+    
+    p,a
+    {
+        color:hsl(0, 0%, 41%);
+        width: 85%;
+    }
+    
+    h1 
+    {
+        color:  hsl(0, 0%, 8%);
+        font-size: 40px;
+        font-weight: 800;
+        padding-left: 10px;
+        margin-top: 50px;
+       
+    }
+    
+    p 
+    {
+        font-size: 15px;
+        font-weight: 500;
+        padding-left: 5px;
+        margin-top: 30px;
+        
+    }
+    
+    
+    
+    #learn-more
+    {
+        color: whitesmoke;
+        background-color:hsl(0, 0%, 8%);
+        border-radius: 15px;
+        margin-left: 60px;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+    
+    }
+    
+    #learn-more:hover
+    {
+        color:hsl(0, 0%, 8%);
+        background-color:hsl(0, 0%, 98%);
+        border-radius: 15px;
+        margin-left: 120px;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+    
+    }
+    
+    #brand-logo
+    {
+        margin-left: 0px;
+        margin-top: 55px;
+        padding-right: 0px;
+    
+    }
+    img
+    {
+        padding-right: 5px;
+        width: 20%;
+    }
+    
+    .container-fluid a img 
+    {
+        width: 5%;
+        
+    }
+    
+    .container-fluid a
+    {
+        text-decoration: none;
+    }
+    
+    #footer
+    {
+        margin-left: 0px; 
+        margin-top: 55px;
+        width: 90%;
+    }
+    .dropdown-menu,.nav-item
+    {
+        padding-left: 0px;
+        float: left;
+    }
+    
+    #hero-photo
+    {
+        padding: 0px;
+        float: left;
+        width:100%
+    }
+    /* .dropdown-menu
+    {
+        padding: 50px;
+    } */
+    ul .dropdown-menu li .nav-item img
+    {
+        margin-left: 5px;
+    }
+
+}
+
