@@ -113,7 +113,7 @@ p
     padding-right: 100px;
 
 }
-img
+#brand-logo img
 {
     padding-right: 30px;
 }
@@ -138,6 +138,8 @@ img
 {
     padding-left: 0px;
     float: left;
+    background-color:hsl(0, 0%, 98%);
+    border-color: hsl(0, 0%, 98%);
 }
 
 #hero-photo
@@ -157,7 +159,7 @@ ul .dropdown-menu li .nav-item img
 }
 
 
-@media (max-width:660px) 
+@media (max-width:980px) 
 {
     body
     {
@@ -197,13 +199,14 @@ ul .dropdown-menu li .nav-item img
         border-radius: 20px;
         padding-left: 60px;
         padding-right: 10px;
-        /* margin-left:70px; */
-        /* margin-right: 100px; */
-        /* padding: 1em; */
+        
+        /* margin-left:70px;
+        margin-right: 100px;
+        padding: 1em; */
     }
     #register a
     {
-        margin-left: 50px ;
+        padding-left: 50px ;
     }
     
     #register:hover 
@@ -212,8 +215,8 @@ ul .dropdown-menu li .nav-item img
         border-style:solid; 
         border-color:black; 
         border-radius: 20px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 60px;
+        padding-right: 10px;
         font-weight: 500;
         transition: 1.5ms;
         /* padding: 1em; */
@@ -231,7 +234,7 @@ ul .dropdown-menu li .nav-item img
         font-size: 40px;
         font-weight: 800;
         padding-left: 10px;
-        margin-top: 50px;
+        padding-top: 100px;
        
     }
     
@@ -266,7 +269,7 @@ ul .dropdown-menu li .nav-item img
         color:hsl(0, 0%, 8%);
         background-color:hsl(0, 0%, 98%);
         border-radius: 15px;
-        margin-left: 120px;
+        margin-left: 60px;
         font-size: 16px;
         font-weight: 500;
         padding: 10px;
@@ -283,7 +286,7 @@ ul .dropdown-menu li .nav-item img
         padding-right: 0px;
     
     }
-    img
+    #brand-logo img
     {
         padding-right: 5px;
         width: 20%;
@@ -316,7 +319,8 @@ ul .dropdown-menu li .nav-item img
     {
         padding: 0px;
         float: left;
-        width:100%
+        width:100%;
+        margin-top:50px;
     }
     /* .dropdown-menu
     {
