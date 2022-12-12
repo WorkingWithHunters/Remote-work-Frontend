@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro section with dropdown navigation solution
+# Frontend Mentor - Remote Work Frontend Design
 
 This is a solution to the [Intro section with dropdown navigation challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -16,9 +16,10 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+Intro section with dropdown navigation
+This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.
 
 ### The challenge
 
@@ -30,41 +31,32 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](Remote work Page\images\screenshot.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/WorkingWithHunters/Remote-work-Frontend)
+- Live Site URL: [Add live site URL here](https://remoteworkfrontend.com)
 
 ## My process
+- Start with nav-bar
+- Insert hero images
+- Float  main hero image in right
+- Add main header text in h1 tag
+- Also add paragraph 
+- Align all above properties in suitable form using css
+- Hover effect
 
 ### Built with
-
+- Bootstrap
+- Font awesome
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -80,20 +72,14 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Frontend mentor challenge is the most easist way to learn front end & be a frontend developer in a mimimum time + less effrot & high efficient way.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Awesome Font](https://fontawesome.com/) - This helped me to use icons. I really liked this pattern and will use it going forward.
+- [Bootstrap](https://getbootstrap.com/) - This is an amazing for responsive navbar. Article which helped me finally understand to how we should develop responsive website. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
@@ -101,12 +87,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Nischal Khanal](https://www.khanalnischal.com.np)
 - Frontend Mentor - [@Hunter420](https://www.frontendmentor.io/profile/Hunter420)
-- Twitter - [@Nischal Khanal](https://www.twitter.com/Nischal_khanal1)
+- Twitter - [@Nischal_Khanal1](https://www.twitter.com/Nischal_khanal1)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
